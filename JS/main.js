@@ -7,7 +7,6 @@ function toggleMobileMenu() {
 
 function hideMobileMenu() {
   let mobileMenu = document.querySelector("#mobile-navigation");
-  console.log(mobileMenu);
   mobileMenu.classList.remove("active-mobile-menu");
 }
 
