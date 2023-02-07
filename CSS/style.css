@@ -19,6 +19,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+#main-container {
+  width: 1366px;
+  margin: 0px auto;
 }
 
 a {
@@ -464,6 +470,10 @@ footer .footer-navigation {
   }
   .content button {
     margin: 0 auto;
+  }
+  .testimonials-container .testimonial {
+    gap: 40px;
+
   }
   @media screen and (max-width: 720px) {
     main #about {
